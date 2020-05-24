@@ -10,14 +10,16 @@ import "./App.css";
 function App() {
   return (
     <Fragment>
-      <Router>
-        <Nav />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/about" component={About} />
-        </Switch>
-      </Router>
+      <div className="App">
+        <Router>
+          <Nav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/about" component={About} />
+          </Switch>
+        </Router>
+      </div>
     </Fragment>
   );
 }
