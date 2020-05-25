@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Bit Academy",
+    "github": "https://github.com/niles87/Project3",
+    "application": "https://arcane-snowlands.herokuapp.com/",
+    "img": "/pubImages/bit_academy.png",
+    "description": "Virtual classroom environment to ensure teachers are able to teach students.",
+    "technologies": "MongoDB, Express, React, Node.js, WebRTC"
+  },
+  {
+    "title": "Book Finder",
+    "github": "https://github.com/niles87/book-finder",
+    "application": "https://secure-everglades-97978.herokuapp.com/",
+    "img": "/pubImages/book_finder.png",
+    "description": "Book seach tool using Google Books api",
+    "technologies": "MongoDB, Express, React, Node.js"
+  },
+  {
+    "title": "Coalesce",
+    "github": "https://github.com/niles87/Project-1",
+    "application": "https://arcane-woodland-29279.herokuapp.com/",
+    "img": "/pubImages/coalesce.png",
+    "description": "Web application designed to help friends decide where to eat.",
+    "technologies": "JavaScript, Passport.js, mySQL, Sequelize, Bootstrap, EJS."
+  }
+]
