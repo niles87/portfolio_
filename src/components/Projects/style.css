@@ -6,6 +6,8 @@
   width: 60vw;
   height: 80vh;
   overflow: scroll;
+  border: 0.5px solid rgba(0, 0, 0, 0.123);
+  border-radius: 8px;
 }
 
 .card {
@@ -26,6 +28,7 @@
 
 .card_title .title {
   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  cursor: default;
 }
 
 .card_body {
@@ -48,6 +51,7 @@
 
 .card_content {
   width: 60%;
+  cursor: default;
 }
 
 .card_content p {
@@ -72,6 +76,7 @@
   text-align: center;
   line-height: 50%;
   transition: 1s;
+  cursor: pointer;
 }
 
 .card_footer button:focus {
@@ -83,5 +88,9 @@
 }
 
 .card:hover {
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project_container:hover {
   box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.2);
 }

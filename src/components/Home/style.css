@@ -52,6 +52,7 @@
 .dev_1 {
   top: 200px;
   left: 200px;
+  z-index: 2;
 }
 
 .dev_2 {
@@ -70,11 +71,11 @@
 }
 
 .wrapper:hover .dev_1 {
-  transform: rotateY(15deg) rotateZ(-5deg) translateY(-5px);
+  transform: rotateY(15deg) rotateZ(-5deg) translateY(-5px) scale(0.9);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .wrapper:hover .dev_2 {
-  transform: rotateY(15deg) rotateZ(-5deg) translateY(-10px);
+  transform: rotateY(15deg) rotateZ(-5deg) translateY(-10px) scale(1.1);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
