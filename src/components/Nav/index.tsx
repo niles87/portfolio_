@@ -6,11 +6,7 @@ const Nav = (): JSX.Element => {
   return (
     <Fragment>
       <div className="navbar">
-        <div className="logo">
-          <Link to="/">
-            <h3>Niles</h3>
-          </Link>
-        </div>
+        <div className="logo"></div>
         <div className="links">
           <div>
             <Link to="/projects">Projects</Link>
@@ -18,9 +14,9 @@ const Nav = (): JSX.Element => {
           <div>
             <Link to="/about">About</Link>
           </div>
-          {/* <div >
-              <Link to="/about">About</Link>
-            </div> */}
+          <div>
+            <Link to="/">Home</Link>
+          </div>
         </div>
         <div className="icons">
           <button onClick={() => window.open("https://github.com/niles87", "_blank")}>
@@ -34,9 +30,13 @@ const Nav = (): JSX.Element => {
           >
             <i className="fab fa-linkedin-in"></i>
           </button>
-          <a href="Niles_Bingham_resume.pdf" target="_blank">
-            Resume
-          </a>
+          <button
+            onClick={() =>
+              window.open(process.env.PUBLIC_URL + "/pubImages/Niles_Bingham_resume.pdf", "_blank")
+            }
+          >
+            <i className="far fa-file-pdf"></i>
+          </button>
         </div>
       </div>
     </Fragment>
