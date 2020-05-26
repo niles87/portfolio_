@@ -4,7 +4,7 @@
     "github": "https://github.com/niles87/Project3",
     "application": "https://arcane-snowlands.herokuapp.com/",
     "img": "/pubImages/bit_academy.png",
-    "description": "Virtual classroom environment to ensure teachers are able to teach students.",
+    "description": "Virtual classroom environment geared towards helping teachers and students with remote learning.",
     "technologies": "MongoDB, Express, React, Node.js, WebRTC"
   },
   {
@@ -21,6 +21,6 @@
     "application": "https://arcane-woodland-29279.herokuapp.com/",
     "img": "/pubImages/coalesce.png",
     "description": "Web application designed to help friends decide where to eat.",
-    "technologies": "JavaScript, Passport.js, mySQL, Sequelize, Bootstrap, EJS."
+    "technologies": "JavaScript, Passport.js, mySQL, Sequelize, Bootstrap, EJS"
   }
 ]
