@@ -51,7 +51,9 @@ const About = (): JSX.Element => {
             </a>
             .
           </p>
-          <p>Playing guitar, cooking, and archery are few things I enjoy outside of writing code</p>
+          <p>
+            Playing guitar, cooking, and archery are few things I enjoy outside of writing code.
+          </p>
           <p>Also have some fun outside of this text box drag the mouse around see what happens!</p>
         </div>
       </div>
