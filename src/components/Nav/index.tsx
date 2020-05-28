@@ -32,7 +32,10 @@ const Nav = (): JSX.Element => {
           </button>
           <button
             onClick={() =>
-              window.open(process.env.PUBLIC_URL + "/pubImages/Niles_Bingham_resume.pdf", "_blank")
+              window.open(
+                "https://sheltered-earth-64439.herokuapp.com/content/docs/Niles_Bingham_resume.pdf",
+                "_blank"
+              )
             }
           >
             <i className="far fa-file-pdf"></i>
