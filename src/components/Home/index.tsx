@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import "./style.css";
 import background from "../../images/home_background.jpg";
 
 const Home = (): JSX.Element => {

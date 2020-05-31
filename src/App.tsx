@@ -5,8 +5,6 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import About from "./components/About";
 
-import "./App.css";
-
 function App() {
   return (
     <Fragment>

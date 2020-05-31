@@ -22,5 +22,13 @@
     "img": "/pubImages/coalesce.png",
     "description": "Web application designed to help friends decide where to eat.",
     "technologies": "JavaScript, Passport.js, mySQL, Sequelize, Bootstrap, EJS"
+  },
+  {
+    "title": "Python REST",
+    "github": "https://github.com/niles87/python_REST",
+    "application": "https://python-leads.herokuapp.com/",
+    "img": "/pubImages/pythonLeads.png",
+    "description": "Simple lead manager application that allows users to add and delete leads.",
+    "technologies": "React, Django, Redux, mySQL"
   }
 ]

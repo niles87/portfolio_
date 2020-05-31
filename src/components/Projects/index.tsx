@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import projects from "../../data/projectlist.json";
-import "./style.css";
 
 const Projects = (): JSX.Element => {
   return (
@@ -12,9 +11,13 @@ const Projects = (): JSX.Element => {
               <h2 className="title">{project.title}</h2>
             </div>
             <div className="card_body">
-              <div className="card_img">
-                <img src={process.env.PUBLIC_URL + project.img} alt={project.title} />
-              </div>
+              <div
+                className="card_img"
+                style={{
+                  background: `url(${process.env.PUBLIC_URL + project.img}) no-repeat`,
+                  backgroundSize: "cover",
+                }}
+              ></div>
               <div className="card_content">
                 <p>{project.description}</p>
                 <span>
