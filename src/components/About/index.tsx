@@ -1,6 +1,5 @@
 import React, { Fragment, useRef } from "react";
 import Root from "../../root/root";
-import "./style.css";
 
 const About = (): JSX.Element => {
   const canvasRef = useRef(null);

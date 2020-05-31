@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
 
 const Nav = (): JSX.Element => {
   return (
