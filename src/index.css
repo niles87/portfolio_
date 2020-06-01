@@ -195,7 +195,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  perspective: 1000px;
+  perspective: 1100px;
   transition: 1s;
 }
 
@@ -237,18 +237,16 @@ a {
   position: absolute;
   pointer-events: none;
   transition: 1s;
-  font-size: 3.5vh;
-}
-
-.dev_1 {
   top: 25%;
   left: 30%;
-  z-index: 2;
 }
 
+.dev_1,
 .dev_2 {
-  top: 25%;
-  left: 52%;
+  transition: 1s;
+  display: inline-block;
+  font-size: 3.5vh;
+  z-index: 2;
 }
 
 .wrapper:hover .frame > .background_img img {
@@ -268,15 +266,31 @@ a {
 
 .wrapper:hover .dev_2 {
   transform: rotateY(15deg) rotateZ(-5deg) translateY(-10px) scale(0.95);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 1080px) {
-  .dev_1 {
-    left: 28%;
+@media screen and (max-width: 960px) {
+  .name {
+    font-size: 4.5vh;
   }
+  .dev_1,
   .dev_2 {
-    top: 30%;
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 740px) {
+  .background_img img {
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .name {
+    font-size: 4vh;
+  }
+  .dev_1,
+  .dev_2 {
+    font-size: 2.7vh;
   }
 }
 
