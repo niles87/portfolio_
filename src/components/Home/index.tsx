@@ -16,8 +16,9 @@ const Home = (): JSX.Element => {
             <img src={background} alt="by Craig Adderley from Pexels" />
           </a>
         </div>
-        <h2 className="dev dev_1">Full-Stack</h2>
-        <h2 className="dev dev_2">Developer</h2>
+        <div className="dev">
+          <h2 className="dev_1">Full-Stack</h2> <h2 className="dev_2">Developer</h2>
+        </div>
       </div>
     </Fragment>
   );
