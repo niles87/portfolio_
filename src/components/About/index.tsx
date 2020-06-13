@@ -5,7 +5,7 @@ const About = (): JSX.Element => {
   const canvasRef = useRef(null);
   let canvas;
   let ctx: any;
-  const edge: number = 80;
+  const edge: number = 60;
   const mouse: any = {
     x: null,
     y: null,

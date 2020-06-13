@@ -24,6 +24,14 @@
     "technologies": "JavaScript, Passport.js, mySQL, Sequelize, Bootstrap, EJS"
   },
   {
+    "title": "Vanilla Video",
+    "github": "https://github.com/niles87/Video_",
+    "application": "https://vanilla-video.herokuapp.com/",
+    "img": "/pubImages/vanilla_video.png",
+    "description": "Custom video player using vanilla JavaScript on the front end",
+    "technologies": "JavaScript, Express, MongoDB"
+  },
+  {
     "title": "Python REST",
     "github": "https://github.com/niles87/python_REST",
     "application": "https://python-leads.herokuapp.com/",

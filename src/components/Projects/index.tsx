@@ -15,7 +15,7 @@ const Projects = (): JSX.Element => {
                 className="card_img"
                 style={{
                   background: `url(${process.env.PUBLIC_URL + project.img}) no-repeat`,
-                  backgroundSize: "cover",
+                  backgroundSize: "contain",
                 }}
               ></div>
               <div className="card_content">
