@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,5 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://niles87.dev/"
+  "homepage": "https://niles87.dev"
 }

@@ -32,7 +32,8 @@ const Nav = (): JSX.Element => {
           <button
             onClick={() =>
               window.open(
-                "https://sheltered-earth-64439.herokuapp.com/content/docs/Resume.pdf",
+                // "https://sheltered-earth-64439.herokuapp.com/content/docs/Resume.pdf",
+                `${process.env.PUBLIC_URL + "/docs/Resume.pdf"}`,
                 "_blank"
               )
             }
