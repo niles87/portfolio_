@@ -11,13 +11,11 @@ const Projects = (): JSX.Element => {
               <h2 className="title">{project.title}</h2>
             </div>
             <div className="card_body">
-              <div
+              <img
                 className="card_img"
-                style={{
-                  background: `url(${process.env.PUBLIC_URL + project.img}) no-repeat`,
-                  backgroundSize: "contain",
-                }}
-              ></div>
+                src={process.env.PUBLIC_URL + project.img}
+                alt={project.title}
+              />
               <div className="card_content">
                 <p>{project.description}</p>
                 <span>
@@ -30,7 +28,9 @@ const Projects = (): JSX.Element => {
               <button onClick={() => window.open(project.github, "_blank")}>
                 <i className="fab fa-github"></i>
               </button>
-              <button onClick={() => window.open(project.application, "_blank")}>
+              <button
+                onClick={() => window.open(project.application, "_blank")}
+              >
                 <i className="fas fa-rocket"></i>
               </button>
             </div>

@@ -97,8 +97,9 @@ body {
 
 .card_body .card_img {
   width: 40%;
-  height: 100%;
   overflow: none;
+  box-sizing: border-box;
+  padding: 40px 20px;
   flex-shrink: 1;
 }
 

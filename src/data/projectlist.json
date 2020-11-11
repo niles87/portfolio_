@@ -1,11 +1,19 @@
 [
   {
     "title": "Bit Academy",
-    "github": "https://github.com/niles87/Project3",
-    "application": "https://arcane-snowlands.herokuapp.com/",
+    "github": "https://github.com/niles87/bit-academy",
+    "application": "https://bit-academy.herokuapp.com/",
     "img": "/pubImages/bit_academy.png",
     "description": "Virtual classroom environment geared towards helping teachers and students with remote learning.",
-    "technologies": "MongoDB, Express, React, Node.js, WebRTC"
+    "technologies": "GraphQL, MongoDB, Express, React/Typescript, Node.js, WebRTC"
+  },
+  {
+    "title": "Img Album",
+    "github": "https://github.com/niles87/file-loader",
+    "application": "https://img-album.azurewebsites.net/",
+    "img": "/pubImages/img-album.png",
+    "description": "Virtual classroom environment geared towards helping teachers and students with remote learning.",
+    "technologies": "GraphQL, MongoDB, Express, React, Node.js, Cloudinary"
   },
   {
     "title": "Book Finder",
@@ -22,14 +30,6 @@
     "img": "/pubImages/coalesce.png",
     "description": "Web application designed to help friends decide where to eat.",
     "technologies": "JavaScript, Passport.js, mySQL, Sequelize, Bootstrap, EJS"
-  },
-  {
-    "title": "Vanilla Video",
-    "github": "https://github.com/niles87/Video_",
-    "application": "https://vanilla-video.herokuapp.com/",
-    "img": "/pubImages/vanilla_video.png",
-    "description": "Custom video player using vanilla JavaScript on the front end",
-    "technologies": "JavaScript, Express, MongoDB"
   },
   {
     "title": "Python REST",
