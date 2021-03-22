@@ -12,7 +12,7 @@
     "github": "https://github.com/niles87/file-loader",
     "application": "https://img-album.azurewebsites.net/",
     "img": "/pubImages/img-album.png",
-    "description": "Virtual classroom environment geared towards helping teachers and students with remote learning.",
+    "description": "Online photo album hosted on azure.",
     "technologies": "GraphQL, MongoDB, Express, React, Node.js, Cloudinary"
   },
   {
